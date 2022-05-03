@@ -1,0 +1,29 @@
+{
+  "name": "apialura",
+  "version": "1.0.0",
+  "description": "Criação de api formação nodejs alura",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamaturgo/FormacaoNodeJS.git"
+  },
+  "author": "Tamaturgo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tamaturgo/FormacaoNodeJS/issues"
+  },
+  "homepage": "https://github.com/tamaturgo/FormacaoNodeJS#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  }
+}
